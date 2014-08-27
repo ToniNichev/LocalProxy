@@ -1,0 +1,12 @@
+#statistic_holder {
+	display:none;
+}
+
+
+#statistic_holder .statistic_box {
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05) inset;
+	background: none repeat scroll 0 0 #DEDEDE;
+	border-radius: 8px;
+	margin: 2px;
+	padding: 5px 5px 1px;	
+}

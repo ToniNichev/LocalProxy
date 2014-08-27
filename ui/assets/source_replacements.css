@@ -1,0 +1,40 @@
+/**
+ * Rewrite Rules
+ */
+#source_replacements_holder {
+	display: none;
+}
+
+
+#source_replacements_template {
+	display: none;
+}
+
+#source_replacements_list {
+	background: none;
+	bottom: 10px;
+    overflow: auto;
+    position: absolute;
+    top: 40px;
+    width: 100%;
+}
+
+#source_replacements_list .source_replacements_boxes {
+	margin: 2px;
+  	border-radius: 8px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05) inset;
+	background: none repeat scroll 0 0 #DEDEDE;
+    border-radius: 8px;
+    margin: 2px;
+    padding: 5px 5px 1px;
+}
+
+
+#source_replacements_list .source_replacements_boxes .head {
+
+}
+
+#source_replacements_list .source_replacements_boxes .head a {
+	margin: 1px;
+    padding: 2px;
+}

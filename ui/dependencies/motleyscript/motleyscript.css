@@ -1,0 +1,29 @@
+.mots_red {
+	color: red;
+}
+
+.mots_black {
+	color: black
+}
+
+.mots_red_bold {
+	color: red;
+	font-weight:bold;
+}
+
+.mots_prop {
+	color: green;
+}
+
+.mots_prop_val {
+	color: blue;
+}
+
+.mots_keyword {
+	color: green;
+	font-weight:bold;
+}
+
+.mots_quotes {
+	color: green;
+}

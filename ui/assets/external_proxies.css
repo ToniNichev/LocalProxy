@@ -1,0 +1,66 @@
+
+#external_proxy_holder {
+	display: none;
+}
+
+
+#external_proxy_holder #external_proxy_template {
+	display: none;
+}
+
+#external_proxy_list {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    bottom: 5px;
+    height: 100%;
+    overflow: auto;
+    position: absolute;
+    top: 42px;
+    width: 100%;
+}
+
+#external_proxy_list .proxy_rule_boxes {
+	margin: 2px;
+  	border-radius: 8px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05) inset;
+	background: none repeat scroll 0 0 #DEDEDE;
+    border-radius: 8px;
+    margin: 2px;
+    padding: 5px;
+}
+
+
+
+.fly_box {
+	-moz-transform: scale(0.1);
+	-webkit-transform: scale(0.1);
+	-o-transform: scale(0.1);
+
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+}
+
+.fly_box-zoomed {
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-ms-transition: all 0.4s;
+	-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	-o-transform: scale(1);
+}
+
+
+
+
+
+
+#external_proxy_holder #external_proxy_list .head {
+
+}
+
+#external_proxy_holder #external_proxy_list .head a {
+	margin: 1px;
+    padding: 2px;
+}
